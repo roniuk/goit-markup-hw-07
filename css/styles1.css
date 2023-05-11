@@ -391,7 +391,7 @@ margin-bottom: 8px;
      margin-bottom: 8px;
 
  }
-@media only screen and (min-width: 768px) {
+@media onlyscreen and (min-width: 768px) {
 
 .icon-two-section {
         display: none;
@@ -403,10 +403,7 @@ margin-bottom: 8px;
                 justify-content:flex-start;
             margin-bottom: 8px;
         }
-/* .svg-image {
-    display: none; 
 
-} */
 .list-sekond-section {
     width: 100%;
         /* width: 356px; */
@@ -428,16 +425,8 @@ margin-bottom: 8px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
-                    /* or 150% */
-        
-                    /* letter-spacing: 0.02em; */
-        
-                    /* SLATE */
-        
-                    /* color: #434455; */
-        
-                }
+        line-height: 1.5;   
+        }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -458,13 +447,18 @@ margin-bottom: 8px;
         }
 
 .section-two-text {
-    font-family: 'Roboto';
+    /* font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5; */
  }
 
+ .icon-two-section {
+     display: block;
+     /* outline: 0 none;
+    fill: #f4f4fd; */
+ }
                         .icon-box {
                         display: flex;
                         align-items: center;
@@ -477,38 +471,24 @@ margin-bottom: 8px;
                         color: #FFFFFF;
                                 }
 
-.icon-two-section {
-    display: block;
-    /* outline: 0 none;
-    fill: #f4f4fd; */
-}
+
 
 }
 
 
-/* =====================   TESTING    ================   */
+
 
 
 
 .section-two-elem {
-    display: block;
+    /* display: block; */
     
     /* flex-basis: calc((100% - 3 * 24px) / 4);  */
    
 }  
 
 
-
-.section-two-text {
-    width: 100%;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
- } 
-
-
+/* =====================   TESTING    ================   */
 /*  //////////////-- INDEX -- SECTION 3 ---////////////////  */
 
 .section-three {
