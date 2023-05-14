@@ -14,16 +14,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./components/main.scss">  -->
+    <link rel="stylesheet" href="./scss/main.css"> 
+
 </head>
 <body>
 <!-- ==============================  PAGE - HEADER  ================== -->
-<!-- <header class="page-header">
-    <div class="divheadindex container">  -->
-    <!--<div class="wrapper">-->
-    <!-- <nav class="page-nav">
-        <a class="logoone link" href="./index.html">Web<span class="span-logo-header">Studio</span></a> -->
-        <!-- <div class="menu-nav"> -->
-        <!-- <ul class="menu list">
+<!--  ===========   menu mobile  ========= -->
+
+<header class="page-header">
+    <div class="divheadindex container">  
+    <!-- <div class="wrapper"> -->
+    <nav class="page-nav">
+        <a class="logoone link" href="./index.html">Web<span class="span-logo-header">Studio</span></a> 
+
+
+        <ul class="menu list">
             <li class="menu-item">
                 <a class="menu-link first link" href="./index.html">Studio</a>
             </li>
@@ -33,36 +39,114 @@
             <li class="menu-item">
                 <a class="menu-link link" href="">Contacts</a>
             </li>
-        </ul> -->
+        </ul> 
         <!-- </div> -->
-    <!-- </nav> -->
-    
+    </nav> 
+    <!-- ===============   MENU MOBILE  ================ -->
 
-    <!-- <address class="address"> -->
+    
+    <button type="button"  class="menu-toggle js-open-menu" > 
+        <!-- aria-expanded="false" aria-controls="mobile-menu" -->
+        <svg class="button-mobile-icon" width="32" height="22">
+                 <use href="./images/sprite.svg#hamburger-converted"></use> 
+            <!-- <use href="./images/icons/icons.svg#icon-charm_menu-hamburger-converted"></use> -->
+        </svg>
+    </button>
+
+
+   <!-- ===============   MENU MOBILE  ================ -->
+    <address class="address">
         <!-- <div class="menu-address"> -->
-        <!-- <ul class="menu list">
+        <ul class="menu list">
             <li>
                 <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
                 <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
-        </ul> -->
-        <!-- </div> -->
-    <!-- </address>
+        </ul>
+         <!-- </div> -->
+</address>
 </div>
-</header> -->
+<!-- ========================= mobile menu ==================== -->
+    <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+        <button class="mobile-menu-clouse-btn js-close-menu" >
+            <svg class="mobile-menu-clouse-icon  modal-close-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-element list">
+                <a class="menu-link first link" href>Studio</a>
+            </li>
+            <li class="mobile-menu-element list">
+                <a class="menu-link first link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-menu-element list">
+                <a class="menu-link first link" href="">Contacts</a>
+            </li>
+        </ul>
+        <!-- <div class="mobile-menu-contact"> -->
+            <ul class="mobile-menu-contact-list">
+                <li class="phone-number">+11 (000) 111-11-11</li>
+                <li class="mobile-menu-email">info@devstudio.com</li>
+            </ul>
+        <!-- </div> -->
+        <ul class="mobile-cardcontent list">
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-instagram-2"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a>
+            </li>
+        
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        </div>
+
+        
+    </div>
+</header>
+
+
+
+
+
 
 
 
 <!-- ////////////////////  FIRST-SECTION     PAGE - MAIN   ////////////////// -->
 <main>
 <section class="hero-image">
-    <div class="container">
-    <!-- <h1 class="hero-imag-name">Effective Solutions<br>
+    <!-- <div class="container"> -->
+    <h1 class="hero-imag-name">Effective Solutions<br>
     for Your Business</h1>
-    <button type="button" class="btn" data-modal-open>Order Service</button> -->
-    </div>
+    <button type="button" class="btn" data-modal-open>Order Service</button> 
+    <!-- </div> -->
 </section>
 <!-- //////////////////// SECOND-SECTION   ////////////////// -->
 
@@ -115,10 +199,10 @@
         </li>
     </ul> 
     </div>
-</section> 
+</section>
 <!-- //////////////////// Three-SECTION   ////////////////// -->
 
-<!-- <section class="section-three">
+<section class="section-three">
     <div class="container">
     <h2 class="name-sektion-three">What are we doing</h2>
     <ul class="tree-list list">
@@ -127,7 +211,7 @@
         <li class="tree-elem"><img src="./images/1macbook.jpg" alt="cute cat" width="360"></li>
     </ul>
     </div>
-</section>  -->
+</section> 
 
 <!-- //////////////////// FO-SECTION   ////////////////// -->
 <!-- <section class="section-fo">
@@ -308,7 +392,7 @@
             </li>
         </ul>
         </div>
-</section> -->
+</section>  -->
 
 
 <!-- ////////////////////  FIVE SECTION   ////////////////// -->
@@ -515,6 +599,7 @@
 
 <!-- Вся твоя розмітка, включно з розміткою модалки -->
 <!-- Ставимо перед закриваючим тегом body -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 </html> 

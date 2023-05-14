@@ -14,18 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="./css/styles.css">
-
-        <!-- Інші мета-теги -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 <!-- ==============================  PAGE - HEADER  ================== -->
-<!-- <header class="page-header">
-    <div class="divheadindex container"> 
-
+<header class="page-header">
+    <div class="divheadindex container">  
+    <!-- <div class="wrapper"> -->
     <nav class="page-nav">
-        <a class="logoone link" href="./index.html">Web<span class="span-logo-header">Studio</span></a>
-      
+        <a class="logoone link" href="./index.html">Web<span class="span-logo-header">Studio</span></a> 
+
+
         <ul class="menu list">
             <li class="menu-item">
                 <a class="menu-link first link" href="./index.html">Studio</a>
@@ -36,13 +34,13 @@
             <li class="menu-item">
                 <a class="menu-link link" href="">Contacts</a>
             </li>
-        </ul>
-      
-    </nav>
+        </ul> 
+        <!-- </div> -->
+    </nav> 
     
 
     <address class="address">
-  
+        <!-- <div class="menu-address"> -->
         <ul class="menu list">
             <li>
                 <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -51,34 +49,43 @@
                 <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
         </ul>
-      
-    </address>
+         <!-- </div> -->
+</address>
+<!-- =================================   mobile menu ==================== -->
+<button type=button class="clouse-mobile-menu">
+    <svg width="32" height="22">
+        <use href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+        <use href="./images/icons/icons.svg#icon-charm_menu-hamburger-converted"></use>
+    </svg>
+</button>
 </div>
 </header>
- -->
 
+<!-- ===============   MENU MOBILE  ================ -->
+
+
+<!-- ===============   MENU MOBILE  ================ -->
 
 <!-- ////////////////////  FIRST-SECTION     PAGE - MAIN   ////////////////// -->
 <main>
 <section class="hero-image">
-    <div class="container">
-    <!-- <h1 class="hero-imag-name">Effective Solutions<br> -->
-    <!-- for Your Business</h1> -->
-    <!-- <button type="button" class="btn" data-modal-open>Order Service</button> -->
-    </div>
-</section> 
+    <!-- <div class="container"> -->
+    <h1 class="hero-imag-name">Effective Solutions<br>
+    for Your Business</h1>
+    <button type="button" class="btn" data-modal-open>Order Service</button> 
+    <!-- </div> -->
+</section>
 <!-- //////////////////// SECOND-SECTION   ////////////////// -->
-
 
 <section class="section-two-no-name">
     <div class="container">
     <h2 class="visually-hidden name-sektion-two">Strategy-Technologies</h2>
     <ul class=" list-sekond-section list">
         <li class="section-two-elem"> 
-            <div class="icon-box"> 
+            <div class="icon-box">
             <svg class="icon-two-section" width="64" height="64">
                 <use href="./images/sectwo.svg#icon-antenna-1" ></use>
-            </svg> 
+            </svg>
             </div>
             <h3 class="name-sektion-elem">Strategy</h3>
             <p class="section-two-text text">Our goal is to identify the business problem to walk away with the perfect and creative solution.
@@ -86,34 +93,34 @@
         </li>
         
             <li class="section-two-elem">
-                <div class="icon-box"> 
+                <div class="icon-box">
                 <svg class="icon-two-section" width="64" height="64">
                     <use href="./images/sectwo.svg#icon-clock-1"></use>
                 </svg>
                 </div>
             <h3 class="name-sektion-elem">Punctuality</h3>
-            <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            <p class=" section-two-text text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
         </li>
     
         <li class="section-two-elem">  
-            <div class="icon-box"> 
+            <div class="icon-box">
             <svg class="icon-two-section" width="64" height="64">
                 <use href="./images/sectwo.svg#icon-diagram-1"></use>
             </svg>
             </div>
           <h3 class="name-sektion-elem">Diligence</h3>
-            <p class="text" >Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+            <p class="section-two-text text" >Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
         </p>
         </li>
         
             <li class="section-two-elem">
-                <div class="icon-box"> 
+                <div class="icon-box">
                 <svg class="icon-two-section" width="64" height="64">
                     <use href="./images/sectwo.svg#icon-astronaut-1"></use>
                 </svg>
                 </div>
             <h3 class="name-sektion-elem">Technologies</h3>
-            <p class="text" >Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+            <p class="section-two-text text" >Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
             </p>
 
         </li>
@@ -134,7 +141,7 @@
 </section>  -->
 
 <!-- //////////////////// FO-SECTION   ////////////////// -->
-<section class="section-fo">
+<!-- <section class="section-fo">
     <div class="container">
             <h2 class="name-sektion-fo">Our Team</h2>
         <ul class="section-fo-list list">
@@ -312,7 +319,7 @@
             </li>
         </ul>
         </div>
-</section>
+</section> -->
 
 
 <!-- ////////////////////  FIVE SECTION   ////////////////// -->
@@ -423,11 +430,11 @@
                     <p class="subscribe-media text">Subscribe</p>
                 
                   <form class="contact-futer">
-                    <label class="modal-form-field"> -->
+                    <label class="footer-form-field"> -->
                        
-                        <!-- <span class="modal-form-wrapper"> =======================-->
+                        <!-- <span class="modal-form-wrapper"> -->
                             <!-- <input id="email" type="text" class="footer-form-input" placeholder="E-mail" required pattern="^[a-z]+"> -->
-                            <!-- <span class="madal-form-input-desk">E-mail</span> ============================-->
+                            <!-- <span class="madal-form-input-desk">E-mail</span> -->
                         <!-- </span> -->
                     <!-- </label>
 
@@ -441,14 +448,14 @@
                
                 </div>
              </div>
-</footer> -->
+</footer>  -->
 
 
 <!-- //////  =========  MODAL WINDOW   ==========  /////////// -->
 
 
 <div class="backdrop is-hidden" data-modal >
-    <div class="modal" >
+<div class="modal">
 
      <!--   clouse button -->
         <button  type="button" class="modal-close-btn" data-modal-close>
@@ -459,7 +466,9 @@
 
      <!--     modal form -->
 <p class="text-modal text">Leave your contacts and we will call you back</p>
+
      <form class="modal-form">
+        <div class="modal-field">
         <label class="modal-form-field">
             <span class="madal-form-input-desk">Name</span>
             <span class="modal-form-wrapper">
@@ -469,6 +478,7 @@
                  </svg>                          
             </span>
         </label>
+        </div>
 
         <label class="modal-form-field">
             <span class="madal-form-input-desk">Phone</span>
@@ -500,7 +510,7 @@
             placeholder="Text input"
             ></textarea>  
         </label>
-</form>
+
         <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
         
         <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the &nbsp;<a href=""><span class="privacy-policy">Privacy Policy</span></a>
@@ -508,7 +518,7 @@
 
         <button type="submit" class="modal-form-submit btn">Send</button>
 
-
+</form>
 
      
     </div>
@@ -517,10 +527,5 @@
 <!-- Вся твоя розмітка, включно з розміткою модалки -->
 <!-- Ставимо перед закриваючим тегом body -->
     <script src="./js/modal.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous"></script>
-    <script defer src="js/mobile-menu.js"></script>
-
 </body>
 </html> 
