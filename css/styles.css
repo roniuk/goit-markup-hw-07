@@ -72,14 +72,14 @@ img {
      display: flex;
 } 
 
-/* .container {
+.container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-}  */
+}  
 h3 {
     font-family: 'Roboto';
     font-style: normal;
@@ -435,7 +435,7 @@ background-color: var(--ocean);
 
 @media only screen and (min-width: 1199px) {
     .container {
-            width: 1199px; 
+            width: 1158px; 
             padding-left: 15px;
             padding-right: 15px;
             align-items: center;
@@ -675,12 +675,17 @@ margin-bottom: 8px;
     .section-three {
             display: none;
         }
+
+                .name-sektion-fo {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
 }
 @media screen and (min-width: 1199px){
 .section-three {
     padding-bottom: 120px; 
     width: 1128;
-}
+  }
 }
 
 .name-sektion-two,
@@ -703,27 +708,46 @@ margin-bottom: 8px;
     padding: 0;
 }
 
-.tree-elem {
+/* .tree-elem {
     width: calc((100% - 48px) / 3 );
-}
+} */
 
 /*  /////////   INDEX   SECTION 4  ////////////  */
+
+
 .cardcontent {
     display: flex; 
-    gap: 24px;
+    gap: 24px; 
     /* row-gap: 74px; */
     /* max-height: 24px; */
     justify-content: center;
     background-position: center;
     margin-top: 8px; 
-}
-  
-.section-five {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-@media screen and (min-width: 768px) {
+} 
 
+.section-fo-list {
+    /* min-width: 764px; */
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 0; 
+    /* width: calc((100% - 24px) / 2)  */
+}
+
+
+@media screen and (max-width: 768px) {
+    .ourteam-container {
+        width: 428px;
+     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .ourteam-container {
+        width: 582px;
+    }
+
+}
 .section-fo {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -735,21 +759,37 @@ margin-bottom: 8px;
             background-color: var(--base-wait-color);
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
-            /* width: calc((100% - 72px) / 2); */
-        }
-}
+           
+        }  
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+   
+        
+    
+/* .section-fo-list { */
+    /* width: 582px; */
+    /* display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 24px;
+    padding: 0; */
+    /* width: calc((100% - 24px) / 2)  */
+
+           
+            /* flex-wrap: wrap;
+            column-gap: 16px;
+            row-gap: 72px; */
+            /* gap: 24px;; */
+        
+/* } */
  .name-sektion-fo-elem {
     margin-bottom: 8px;
     text-align: center;
     
 } 
 
-.section-fo-list {
-    display: flex;
-    gap: 24px;
-    padding: 0;
 }
-
 /* .section-fo-list-elem {
     background-color: var(--base-wait-color) ;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -768,11 +808,6 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* ////////////////  CUSTOMERS LIST  5 SECTION ////////////// */
-.customer {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .customers {
     text-align: center;
     font-family: 'Roboto';
@@ -782,11 +817,36 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 1.1;
+    margin-left: auto;
+        margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+    .customer-container {
+            width: 428px;
+        }
+     
+
+.customer {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .customer-container {
+        width: 582px;
+    }
+    
+}
 .client-list {
 display: flex;
-gap: 24px;;
+flex-wrap: wrap;
+column-gap: 16px;
+row-gap: 72px;
+justify-content: center;
+/* gap: 24px;; */
 } 
 
 .client-link {
