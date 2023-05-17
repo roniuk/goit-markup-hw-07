@@ -1466,7 +1466,7 @@ margin: 0;
 .modal-close-btn {
 
     position: absolute;
-    top: 24px;
+    top: 16px;
     right: 24px;
     display: flex;
     justify-content: center;
